@@ -26,7 +26,7 @@ int main (){
     for(int i=0;i<=n-1;i++){
     scanf("%d",&a[i]);}
     int count=bubble_sort(a,n);
-   printf("The sorted array is :\n")
+   printf("The sorted array is :\n");
      for(int i=0;i<=n-1;i++){
         printf("%d ",a[i]);}
         printf("\n%d is the number of swaps",count);
