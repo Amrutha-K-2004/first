@@ -17,15 +17,7 @@ void insertion_sort(int a[],int n){
         insert_inorder(a,i,a[i]);
     }
 }
-// void insert_inorder(int a[],int upper,int key){
-//     int j=upper-1;
-//     while(j>=0 && key<a[j]){
-//         a[j+1]=a[j];
-//         j--;
-//     }
-//     a[j+1]=key;
 
-// }
 int main (){
    int n,a[100];
     printf("\nEnter the number of elements ");
